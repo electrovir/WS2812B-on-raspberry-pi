@@ -53,3 +53,7 @@ scons && sudo ./test -c
 ## Not working?
 
 If these steps don't work, you may need to follow other instructions included in the [rpi_ws281x repo](https://github.com/jgarff/rpi_ws281x) or [these other instructions](https://tutorials-raspberrypi.com/connect-control-raspberry-pi-ws2812-rgb-led-strips/) I found (such as disabling the audio).
+
+# Things that don't work
+
+[Johnny Five](https://github.com/rwaldron/johnny-five/) doesn't seem to have any WS281x support. At least it's not in the docs anywhere or in the code from what I can tell.
